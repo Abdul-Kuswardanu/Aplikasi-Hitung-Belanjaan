@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    background-color: rgb(15, 165, 173);
+    padding: 20px;
+    color: white;
+}
+
+.dashboard .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dashboard h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.dashboard h1 a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-edit {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 1100px; 
+    text-align: center;
+}
+
+.form-edit label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-edit input[type="text"],
+.form-edit input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    color: red;
+    text-decoration: none;
+}
+
+.delete-button:hover {
+    text-decoration: underline;
+}
+
+.edit-button {
+    color: blue;
+    text-decoration: none;
+}
+
+.edit-button:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fff;
+}
